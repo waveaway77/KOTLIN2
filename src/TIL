@@ -1,0 +1,31 @@
+3/4
+oss :  open source software
+nelo :
+ssl : SSL/TLS는 Secure Sockets Layer와 Transport Layer Security(전송 계층 보안)를 의미하는 용어로, 컴퓨터 시스템이 인터넷에서 안전하게 서로 통신할 수 있도록 하는 프로토콜 또는 통신 규칙입니다.
+
+3/5
+@Tag(name=”카테고리이름”, description=””)
+api 엔드포인트에 태그를 할당하여 관련된 엔드포인트를 그룹화하고 문서에서 카테고리를 형성한다. 주로 @RestController와 사용됨
+@Operation(summary = “작업의요약”, description=””)
+API 엔드포인트의 작업에 대한 설명을 추가하고 세부 정보를 제공한다. 주로 @RestController 클래스 내부 메서드에 사용한다.
+코루틴
+안드로이드 프로그래밍을 하다보면 Couroutine(코루틴)이라는 용어를 들어보셨을 것입니다. 코투린이란 코 = co(함께, 동시에)라는 의미를 가지고 있습니다. 즉, 동시성 프로그래밍 개념을 코틀린에 도입한 것이 코투린 이라고 합니다.
+코루틴은 코루틴이 시작된 스레드를 중단하지 않으면서 비동기적으로 실행되는 코드입니다.
+즉, 코루틴이란 함께 동작하면서 규칙이 있는 일의 순서를 의미합니다.
+
+3/6
+@RestControllerAdvice
+https://velog.io/@woosim34/RestControllerAdvice%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC
+
+comapion object
+
+
+BFF
+BFF(Backend For Frontend)는 프론트엔드 애플리케이션의 요구사항에 맞춰 설계된 백엔드 서비스를 의미합니다. 프론트엔드와 백엔드 개발의 협업을 위한 아키텍처 패턴으로, 마이크로서비스 아키텍처의 여러 패턴 중 하나입니다.
+BFF의 특징은 다음과 같습니다.
+각 프론트엔드 애플리케이션의 특성에 맞춰 백엔드 서비스를 구성합니다.
+프론트엔드를 위한 중간 서버를 구현합니다.
+API를 직접 의존할 때 발생하는 이슈를 해결합니다.
+
+suspend
+
