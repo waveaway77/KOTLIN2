@@ -18,7 +18,7 @@ API 엔드포인트의 작업에 대한 설명을 추가하고 세부 정보를 
 https://velog.io/@woosim34/RestControllerAdvice%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC
 
 comapion object
-
+src/CompanionObject.kt
 
 BFF
 BFF(Backend For Frontend)는 프론트엔드 애플리케이션의 요구사항에 맞춰 설계된 백엔드 서비스를 의미합니다. 프론트엔드와 백엔드 개발의 협업을 위한 아키텍처 패턴으로, 마이크로서비스 아키텍처의 여러 패턴 중 하나입니다.
