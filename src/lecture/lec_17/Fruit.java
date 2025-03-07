@@ -1,4 +1,4 @@
-package lec_17;
+package lecture.lec_17;
 
 public class Fruit {
     private final String name;

@@ -1,4 +1,4 @@
-package lec_12_Object
+package lecture.lec_12_Object
 
 interface Log {
     fun log()

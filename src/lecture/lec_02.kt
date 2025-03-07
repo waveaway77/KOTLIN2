@@ -1,4 +1,4 @@
-/*
+package lecture/*
 1. how to check null in Kotlin
 2. Safe Call, Elvis
 3. 널 아님 단언하는 방법

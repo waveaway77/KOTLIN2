@@ -1,3 +1,5 @@
+package lecture
+
 코틀린의 예외
 1. try catch finally
 2. checked Exception & unchecked Exception

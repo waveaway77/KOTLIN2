@@ -1,4 +1,4 @@
-/*
+package lecture/*
 1. java & kotlin의 가시성 제어 차이
 2. 코틀린 파일의 접근 제어
 3. 접근제어

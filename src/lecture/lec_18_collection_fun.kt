@@ -1,4 +1,6 @@
-import lec_17.Fruit
+package lecture
+
+import lecture.lec_17.Fruit
 
 /*
 1. 필터와 맵
@@ -40,8 +42,8 @@ val apples4 = fruits.filter { fruit -> fruit.name == "사과" }
     }
 
 // map의 결과가 null이 아닌것만 가져오고 싶다면
-val apples5 = fruits.filter { fruit -> fruit.name == "사과" }
-    .mapNotNull { fruit -> fruit.nullOrValue() }
+//val apples5 = fruits.filter { fruit -> fruit.name == "사과" }
+//    .mapNotNull { fruit -> fruit.nullOrValue() }
 
 // 2.
 val isAllApple = fruits.all { fruit -> fruit.name == "사과" } // 조건을 모두 만족하면 true

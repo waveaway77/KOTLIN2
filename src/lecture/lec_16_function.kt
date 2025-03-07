@@ -1,4 +1,4 @@
-/*
+package lecture/*
 1.확장함수
 2.infix함수 (중위함수)
 3.inline함수

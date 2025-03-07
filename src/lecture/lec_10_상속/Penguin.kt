@@ -1,6 +1,6 @@
-package lec_10_상속
+package lecture.lec_10_상속
 
-class Penguin(
+abstract class Penguin(
     species: String
 ) : Animal(species, 2), Swimable, Flyable {
 

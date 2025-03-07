@@ -1,4 +1,4 @@
-/*
+package lecture/*
 1. 배열
 2. 컬렉션
 3.

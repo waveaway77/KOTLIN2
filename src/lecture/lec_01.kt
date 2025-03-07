@@ -1,4 +1,4 @@
-/*
+package lecture/*
 1. 변수 선언 키워드 - var & val
 2. Kotlin에서의 Primitive Type : boxing unboxing 고려x kotlin이 알아서
 3. Kotlin에서의 nullable 변수
@@ -12,6 +12,10 @@ java code
 (3) Long number3 = 1_000L;
 (4) Person person = new Person("홍길동");
  */
+
+fun main() {
+    lec_01()
+}
 
 fun lec_01() {
 

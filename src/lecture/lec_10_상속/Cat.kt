@@ -1,4 +1,4 @@
-package lec_10_상속
+package lecture.lec_10_상속
 
 class Cat(
     species: String // 생성자

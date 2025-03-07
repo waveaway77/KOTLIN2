@@ -1,3 +1,5 @@
+package lecture
+
 data class PersonDto( // data가 붙으면 equals hashcode tostring을 다 만들어준당
     val name: String,
     val age: Int

@@ -1,4 +1,4 @@
-package lec_17;
+package lecture.lec_17;
 
 import java.util.ArrayList;
 import java.util.Arrays;

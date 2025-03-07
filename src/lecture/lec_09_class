@@ -1,3 +1,5 @@
+package lecture
+
 코틀린 클래스
 1. 클래스와 프로퍼티
 2. 생성자와 init

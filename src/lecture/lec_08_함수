@@ -1,3 +1,5 @@
+package lecture
+
 코틀린에서 함수를 다루는 방법
 1. 함수선언문법
 2. default parameter
@@ -8,7 +10,8 @@
 예제 두 정수를 받아 더 큰 정수를 반환하는 예제
 java
 public int max(int a, int b) {
-    if(a>b){return a}
+    if(a > b){return a
+    }
     return b;
 }
 
@@ -33,7 +36,7 @@ fun max (a: Int, b: Int) = if (a>b) a else b // 중괄호 삭제 가능
 주어진 문자열을 N번 출력하는 예제
 java
 public void repeat (String str, int num, boolean useNewLine) {
-    for int(i=1;i<=num;i++) {
+    for int(i=1;i <=num;i++) {
         if (useNewLine) {
             Sysout(str);
         } esle {

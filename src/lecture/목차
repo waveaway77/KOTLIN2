@@ -1,0 +1,91 @@
+01. 변수
+var, val, ?
+
+02. null
+elvis
+!!
+
+05.
+is
+as
+as?
+Any?
+Unit
+Nothing
+println("이름 : ${person.name})
+println("$index : $value")
+"""
+""".trinIndent()
+println(str[0]) // A
+if (money1 > money2) { ... }
+kotlin 동일성에 === 동등성에 ==(equals 간접호출)
+if (score in 0..100) {}
+switch case() {}
+return when
+
+06. 반복문
+for (number in numbers)
+for (i in 3 downTo 1) {}
+for ( i in 1..5 step 2) {}
+
+07. 예외
+.toInt()
+throw Illegal~
+use
+
+08. 클래스
+class Person contructor(name: String) {} // 필드-> getter setter, 필드 생략 가능
+초기화 블록
+주생성자
+부생성자
+backing field
+
+11.
+접근 제어
+public / protected / internal / private
+
+12. 중첩클래스
+data class PersonDto(val name: String,)
+when
+enum class Country(val code: String,) { KOREA("KO") }
+sealed class, 하위클래스
+
+15. 배열
+arrayOf
+array.indices
+array.withIndex()
+array.plus
+lisfOf
+mutableListOf()
+mutalbeMapOf<>
+mapOf(1 to "Monday")
+map.keys
+map.entriles
+
+16.
+확장함수
+infix함수
+inline함수
+지역함수
+
+17.
+
+18.
+.filter.map
+.filterIndexed
+.all
+.none
+.any
+.count()
+.sortedBy
+.sortedByDescending
+.distinctBy
+.first
+.lastOrNull
+.groupBy
+
+19.
+typealias
+as import
+take if
+takeUnless

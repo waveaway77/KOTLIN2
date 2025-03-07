@@ -1,4 +1,4 @@
-/*
+package lecture/*
 typealias
 as import
 take if : 주어진 조건을 만족하면 그 값이, 그렇지 않으면 null이 반환된다.

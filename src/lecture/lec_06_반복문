@@ -1,3 +1,5 @@
+package lecture
+
 반복문
 1. for-each
 2. 전통적 for문

@@ -1,4 +1,4 @@
-package lec_12_Object/*
+package lecture.lec_12_Object/*
 1. static
 2. singleton
 3. 익명클래스
