@@ -1,0 +1,27 @@
+package code
+
+class C_05_Generic {
+}
+
+class CustomResponse<T>(val data: T?, val uid: String?)
+
+fun <T> success(data: T? = null, uid: String? = null): CustomResponse<T> { // T를 사용하면 함수 호출 시 타입이 자동으로 결정됨.
+    return CustomResponse(data, uid)
+}
+
+fun main() {
+    val response1 = success("Hello") // T는 String
+    val response2 = success(123)     // T는 Int
+    val response3 = success(true)    // T는 Boolean
+
+    println(response1.data)  // Hello
+    println(response2.data)  // 123
+    println(response3.data)  // true
+}
+
+// 제네릭을 사용하지 않을 경우
+fun success(data: Any? = null, uid: String? = null): CustomResponse<Any?> {
+    return CustomResponse(data, uid)
+}
+val response = success("Hello")
+//val text: String = response.data // 에러 발생. // data의 타입이 Any?이므로, 반환된 값을 사용할 때 명시적인 캐스팅이 필요하다.
