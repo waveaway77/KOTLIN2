@@ -1,0 +1,18 @@
+class Dog {
+    fun bark() { println("Woof") }
+}
+
+class Cat {
+    fun meow() { println("Meow") }
+}
+
+fun main() {
+    val animals = lisfOf(Dog(), Cat())
+    for (animal in animals) {
+        if (animal is Dog) {
+            animal.bark()
+        } else if (animal is Cat) {
+            animal.meow()
+        }
+    }
+}

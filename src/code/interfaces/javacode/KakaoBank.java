@@ -1,4 +1,4 @@
-package code.interfaces;
+package code.interfaces.javacode;
 
 // 카카오뱅크는 인터페이스를 implements를 하지 않은 채 자신만의 메소드를 구현한 예시
 public class KakaoBank {

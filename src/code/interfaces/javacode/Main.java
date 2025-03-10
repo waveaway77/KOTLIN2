@@ -1,4 +1,4 @@
-package code.interfaces;
+package code.interfaces.javacode;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package code.interfaces;
+package code.interfaces.javacode;
 
 // 터페이스를 implements한 클래스가 동일한 동작을 수행하도록 보장한다. 또 JAVA8 부터 디폴트 메소드를 허용하면서 추가요건에 대한 대처를 할 수 있도록 유연성을 확보해주었다
 public interface Bank {

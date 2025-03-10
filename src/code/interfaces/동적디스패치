@@ -1,0 +1,15 @@
+function runner(IRunnable runnable) {
+    runnable.run()
+}
+
+class DefaultRunnable implements IRunnable { // IRunnable을 만족하는 타입 -> runner의 인자로 줄 수 있음
+    function run() { console.Write("Run"); }
+}
+
+class DummyRunnable implements IRunnable { // IRunnable을 만족하는 타입
+    function run() {}
+}
+
+---
+runner(new DefaultRunnable()) // Run 출력
+runner(new DummyRunnable()) // 아무것도 출력 안됨
