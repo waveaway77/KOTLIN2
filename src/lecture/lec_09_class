@@ -16,7 +16,7 @@ public class JavaPerson {
 
 K
 class Person constructor(name: String, age: Int) { // 생성자, 생략가능하다.
-    class Person (name: String, age: Int) { // 생성자, 생략가능하다.
+class Person (name: String, age: Int) { // 생성자, 생략가능하다.
         val name: String = name // final
         var age: Int = age
 // 필드만 만들면 getter setter가 자동으로 생성됨
