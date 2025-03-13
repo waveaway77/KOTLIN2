@@ -1,0 +1,14 @@
+function runner(IRunnable runnable) {
+    runnable.run();
+}
+
+class DefaultRunnable implements IRunnable {
+    function run() { Console.write("Run")}
+}
+
+class DummyRunnable implements IRunnable {
+    function run() {}
+}
+
+runner(new DefaultRunnble()) // Run
+runner(new DummyRunnable()) // 아무것도 출력되지 않음
