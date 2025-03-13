@@ -1,5 +1,7 @@
 package lecture
 
+import kotlin.reflect.KClass
+
 class Lec_09 {
 }
 
@@ -13,9 +15,7 @@ class Person3(val name: String, var age: Int) {
     // this가 주생성자를 호출한다.
 
     constructor() : this("홍길동") // 부생성자는 무조건 주생성자에게 직간접적으로 생성을 위임해야 하
-
 }
-
 
 fun main() {
     // 생성자 없는 클래스의 호출도 가능하다.
