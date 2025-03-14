@@ -5,6 +5,8 @@ class C_05_Generic {
 
 class CustomResponse<T>(val data: T?, val uid: String?)
 
+// 첫 번째 <T>: 얘는 제네릭 함수고요... T를 하나의 타입 파라미터로 쓰겠습니다잉..하는 선언
+// MutableList<T>는 리스트 안에 들어갈 데이터 형을 지정.
 fun <T> success(data: T? = null, uid: String? = null): CustomResponse<T> { // T를 사용하면 함수 호출 시 타입이 자동으로 결정됨.
     return CustomResponse(data, uid)
 }
