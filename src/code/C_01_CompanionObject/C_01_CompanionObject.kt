@@ -1,4 +1,4 @@
-package code// https://velog.io/@yongin01/%EC%9E%90%EB%B0%94%EC%BD%94%ED%8B%80%EB%A6%B0-companion-object%EC%97%90-%EB%8C%80%ED%95%B4
+package code.C_01_CompanionObject// https://velog.io/@yongin01/%EC%9E%90%EB%B0%94%EC%BD%94%ED%8B%80%EB%A6%B0-companion-object%EC%97%90-%EB%8C%80%ED%95%B4
 
 class CompanionObject {
     var naverUrl = DataSourceClass.Datasource.baseUrl

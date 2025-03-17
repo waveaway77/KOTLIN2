@@ -1,4 +1,4 @@
-package code
+package code.C_08_Generic_Function
 
 class C_08_Generic_Function {
 }
