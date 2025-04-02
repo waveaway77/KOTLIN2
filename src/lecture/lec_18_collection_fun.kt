@@ -1,6 +1,6 @@
 package lecture
 
-import lecture.lec_17.Fruit
+import lecture.lec_17_lambad.Fruit
 
 /*
 1. 필터와 맵

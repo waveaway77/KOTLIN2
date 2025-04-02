@@ -14,5 +14,6 @@
     <orderEntry type="library" name="kotlinx-coroutines-core" level="project" />
     <orderEntry type="library" name="KOTLIN2" level="project" />
     <orderEntry type="library" exported="" name="corretto-17.0" level="project" />
+    <orderEntry type="library" name="mapstruct-1.6.3" level="project" />
   </component>
 </module>

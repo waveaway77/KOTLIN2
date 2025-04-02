@@ -1,0 +1,30 @@
+// 익명함수==람다
+// 함수대신 =을 사용한 경우, 모두 같은 return 형일 경우 타입 생략 가능
+
+// 람다직접호출1
+//----isApple의 타입을 명시-------//------익명함수----------------
+//           (파라미터타입)->반환타입    익명함수==람다
+var isApple: (Fruit) -> Boolean = fun(fruit: Fruit): Boolean {
+    return fruit.name == "사과"
+}
+
+// 람다직접호출2 : 익명함수 선언부와 return 표기를 생략할 수 있다. 대신 {}에 인자 타입과 수행 코드를 적는다.
+//            (파라미터타입) -> 반환타입
+val isApple2: (Fruit) -> Boolean = { fruit: Fruit -> fruit.name == "사과" }
+
+// 람다호출3 : isAppple2 이름 자체를 삭제하고 함수로만 표현함 // 이 때 함수의 반환타입이 Boolean으로 같으므로 실현부를 아예 인자 위치로 보낼 수 있다.
+filterFruits(fruits, { fruit: Fruit -> fruit.name == "사과" })
+
+// 람다호출4 : 구현부가 파라미터 여러개 중 마지막 인자일 경우 소괄호 밖으로 뺄수도 있다.
+filterFruits(fruits) { fruit: Fruit -> fruit.name == "사과" }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fun checkName(request: JYNameRequest): NameResult<JYNameResponse> = resultOfSuspend(opName = "aaa") { 생략... }
+￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
+// 단일 표현식 함수(Single Expression Function)를 사용하지 않음
+fun add(a: Int, b: Int): Int {
+    return a + b
+}
+// 함수를 호출한 결과를 직접 반환하는 단일 표현식 함수로 변환하면 (이는 람다 표현식과는 다른 개념입니다.)
+fun add(a: Int, b: Int): Int = a + b

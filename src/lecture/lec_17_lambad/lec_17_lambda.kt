@@ -1,9 +1,11 @@
-package lecture.lec_17/*
+package lecture.lec_17_lambad/*
 1. java에서 람다를 다루기 위한 노력
-2. 코틀린에서의 람다
+2. 코틀린에서의 Single-Expression-Function-and-Lambda
 3. 코틀린의 Closure
 4. try with resources
 */
+
+class Fruit(val name: String, val price: Int)
 
 // 1.
 fun main() {
@@ -19,8 +21,8 @@ fun main() {
     )
 
     // 람다직접호출1
-    // 함수의 타입: (파라미터타입) -> 반환타입 // isApple의 타입은 "Fruit을 받아 Boolean으로 반환하는 것"
-    var isApple: (Fruit) -> Boolean = fun(fruit: Fruit): Boolean { // 익명함수==람다
+    //           (파라미터타입) -> 반환타입 // isApple의 타입은 "Fruit을 받아 Boolean으로 반환하는 것"
+    var isApple: (Fruit) -> Boolean = fun(fruit: Fruit): Boolean { // 익명함수==Single-Expression-Function-and-Lambda
         return fruit.name == "사과"
     }
 

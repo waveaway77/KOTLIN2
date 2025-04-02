@@ -1,0 +1,19 @@
+<NameResultUtils>
+suspend inline fun <T> resOfSuspend(
+    crossinline block: suspend NameResultContext.() -> T
+): NameResult<T> {
+    val context = NameResultContext()
+    return catchingSuspend({
+        context.block
+    })
+}
+
+context.block은... resOfSuspend을 호출한 곳의 람다이다.
+
+<JYNameService>
+override suspend fun nameCheck(): NameResult<Any> =
+    resOfSuspend() { // trailing lambda
+        println("여기가 block입니다")
+        nameApiClient.executePost(...).bind()
+        println("block 끝")
+    }

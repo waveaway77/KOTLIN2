@@ -26,3 +26,15 @@ fun main() {
     person.name
     person.age = 10
 }
+
+/*
+    클래스 선언	            Getter 생성	Setter 생성	유형
+class Person(name: String)	    X	        X	    생성자 매개변수
+class Person(var name: String)	O	        O	    속성
+class Person(val name: String)	O	        X	    속성
+ */
+
+/*
+get() = 을 통해 고정적인 값을 반환을 할 수 있지만,
+get(){ 연산 로직 작성 } 중괄호 안에 연산이 필요한 코드를 적용할 수도 있습니다.
+ */
