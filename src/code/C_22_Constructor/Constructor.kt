@@ -50,3 +50,15 @@ class TestRestController2(serviceFactory: Test) { // var을 안 붙이면 생성
 //        return serviceFactory.testMethod() // error! // 클래스내부에서 쓸 수 없음
 //    }
 }
+
+//클래스 이름 옆에서만 생성자를 만들 수 있는걸까?
+//생성자를 여러개 만들고 싶을때는 어떻게 하면될까..
+class TestClass{
+    var name = ""
+    var age = 0
+    constructor(name: String, age: Int){
+        this.name = name
+        this.age = age
+    }
+}
+// https://llshl.tistory.com/64
