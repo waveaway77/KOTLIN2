@@ -7,6 +7,27 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/testResources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_01_CompanionObject" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_02_Dereferencing" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_03_suspendd" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_04_coroutiness" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_05_Generic" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_06_Reflection" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_07_dynamicDispatch" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_07_genericOut" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_08_Generic_Function" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_09_생성자로객체전달" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_10_RunCatching" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_11_by_lazy" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_12_Nothing" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_13_Serialiazble" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_14_Inherited" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_15_Nothing" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_16_interface_map" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_17_Sealed_Class" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_18_Lambda" />
+      <excludeFolder url="file://$MODULE_DIR$/src/code/C_19_block" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lecture" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
