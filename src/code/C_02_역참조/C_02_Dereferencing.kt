@@ -1,4 +1,4 @@
-package code.C_02_Dereferencing
+package code.C_02_역참조
 
 class Dereferencing {
 }
