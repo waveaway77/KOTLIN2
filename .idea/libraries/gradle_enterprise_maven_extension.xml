@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="gradle.enterprise.maven.extension" type="repository">
+    <properties maven-id="com.gradle:gradle-enterprise-maven-extension:1.20.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gradle/gradle-enterprise-maven-extension/1.20.1/gradle-enterprise-maven-extension-1.20.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
