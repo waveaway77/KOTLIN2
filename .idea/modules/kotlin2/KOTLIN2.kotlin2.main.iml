@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../../kotlin2/src/main" dumb="true">
+      <excludeFolder url="file://$MODULE_DIR$/../../../kotlin2/src/main/kotlin/org.example/code/C_16_interface_map/A" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../kotlin2/src/main/kotlin/org.example/code/C_16_interface_map/B" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../kotlin2/src/main/kotlin/org.example/code/C_16_interface_map/C" />
+    </content>
+  </component>
+</module>

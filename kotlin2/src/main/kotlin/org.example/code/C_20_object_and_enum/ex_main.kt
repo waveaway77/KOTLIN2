@@ -1,7 +1,7 @@
 package code.C_20_object_and_enum
 
 fun main() {
-    println(BANKCODE_OBJECT.woori) // 020
+//    println(BANKCODE_OBJECT.woori) // 020
     println(BANKCODE_ENUM.shinhan) // woori
 
     val allBanks = BANKCODE_ENUM.values()
