@@ -1,4 +1,4 @@
-package code.C_13_Serialiazble;
+package org.example.code.C_13_Serialiazble;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

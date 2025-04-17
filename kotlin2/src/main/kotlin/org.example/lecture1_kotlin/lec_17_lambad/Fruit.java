@@ -1,4 +1,4 @@
-package lecture.lec_17_lambad;
+package org.example.lecture1_kotlin.lec_17_lambad;
 
 public class Fruit {
     private final String name;

@@ -1,10 +1,10 @@
-package code.interfaces.javacode;
+package org.example.code.interfaces.javacode;
 
 public class KBBank implements Bank{
     @Override
     public void withdraw(int amount) {
         System.out.println("KB뱅크만의 인출 로직");
-        if (amount < Bank.MAX_INTEGER) {
+        if (amount < MAX_INTEGER) {
             System.out.println(amount + "원을 인출");
         } else {
             System.out.println(amount + "원 인출 실패");

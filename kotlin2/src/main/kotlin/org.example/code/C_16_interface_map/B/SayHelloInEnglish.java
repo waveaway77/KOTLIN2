@@ -1,4 +1,4 @@
-package code.C_16_interface_map.B;
+package org.example.code.C_16_interface_map.B;
 
 @Service("ENG")
 public class SayHelloInEnglish implements SayHelloService {
