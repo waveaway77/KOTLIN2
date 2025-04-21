@@ -1,0 +1,27 @@
+https://proandroiddev.com/understanding-kotlin-generics-through-a-fantasy-story-6143b49e0c4d
+
+Understanding Generics in Kotlin can be tough for beginners; trust me, I’ve been there. Let me tell you a little fantasy story to understand them easily.
+
+After reading this, you will be able to :
+
+Understand how covariant, contravariant, and invariant types work(with in, out keywords).
+Understand that Kotlin erases type information at runtime and how reified keyword works.
+Learn use-site variance, star-projections, and null safety in Generics.
+Discover how Generics are applied in the real world(in Kotlin APIs).
+
+
+- * -
+
+
+In the land of Generics, three Android heroes — Warrior, Mage, and Archer — embarked on a quest to defeat the legendary Lord Ambiguous, who threatened the land of Generics.
+
+They had to pass through the Forbidden Forest to reach the Lord Ambiguous, which taught them the variance rules in the land of Generics.
+
+Table of Contents
+Chapter 1: The Mystic Gate and Invariance
+Chapter 2: The Magical Scroll and Covariance
+Chapter 3: The Lord Ambiguous and Contravariance
+Chapter 4: The Final Battle and Type Erasure
+Chapter 5: The Spell of Reified
+Chapter 6: The Ending
+Bonus Chapter: Advanced Kotlin Generics
