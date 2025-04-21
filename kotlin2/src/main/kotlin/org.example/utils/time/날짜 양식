@@ -1,0 +1,27 @@
+시간 표기
+HH : 0-23
+kk : 1-24
+KK : 0-11
+hh : 1-12
+
+- 8자
+YYYY MM DD
+- 14자
+YYYY MM DD HH MM SS
+- 20자 (마이크로 초 6자가 추가)
+YYYYMM DD HH MM SS mmmuuu
+
+
+RequestFilter : {bankId}
+coroutineContext에 LogContext의 키를 넣으면 (LogContext) 그 스레드 안에 있을 때 정보를 회수한다
+WebFilter chain이 변수명
+
+controller의 withContext(여기서 시작)
+
+BankReulstUtils : 로그 찍는 애 (withContext)
+
+LogContext : 로그 내용 적힌 곳
+withLog >>> LogContext를 부여받음. logInfo("hello")
+
+from~~~ : 에러값을 변환해주는 애
+bind : 조기리턴을 위하여 익셉션을 스루하는 방식으로 처리
