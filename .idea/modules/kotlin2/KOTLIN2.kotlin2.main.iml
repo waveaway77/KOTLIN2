@@ -5,6 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin2/src/main/kotlin/org.example/code/C_16_interface_map/A" />
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin2/src/main/kotlin/org.example/code/C_16_interface_map/B" />
       <excludeFolder url="file://$MODULE_DIR$/../../../kotlin2/src/main/kotlin/org.example/code/C_16_interface_map/C" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../kotlin2/src/main/kotlin/org.example/code/C_16_interface_map" />
     </content>
   </component>
 </module>

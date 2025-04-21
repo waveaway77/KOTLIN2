@@ -10,15 +10,6 @@ repositories {
 }
 
 dependencies {
-    // kotlin
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.1.20")
-    testImplementation(kotlin("test"))
-    implementation(kotlin("stdlib-jdk8"))
-
-    // coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
-
-    implementation("org.mapstruct:mapstruct:1.5.5.Final")
 }
 
 tasks.test {
