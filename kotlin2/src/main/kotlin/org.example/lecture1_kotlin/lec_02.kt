@@ -6,6 +6,7 @@ package lecture/*
 */
 
 fun main() {
+    safeCall()
     println(startsWith(null)) // 컴파일 에러는 안 나지만 runtime 에러 발생 (NPE)
 }
 
@@ -35,13 +36,13 @@ fun startsWithA2(str: String?): Boolean? {
 fun safeCall() {
     val str: String? = "ABC"
     // str.length // error
-    str?.length // ok.
+    println(str?.length) // 3
 
     val str2: String? = null
-    println(str2?.length) // null이 나온다
+    println(str2?.length) // null
 }
 
-// Elvis 연산자 : 앞의 연산결과가 null이면 뒤의 값을 사용한다
+// Elvis 연산자 [:] 앞의 연산결과가 null이면 뒤의 값을 사용한다
 fun elvis() {
     val str: String? = "ABC"
     str?.length ?: 0 // null이었을 경우 0이 사용된다

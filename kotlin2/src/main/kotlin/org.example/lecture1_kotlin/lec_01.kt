@@ -39,5 +39,8 @@ fun lec_01() {
     // 3.
     // kotlin에서는 null은 지정해줘야만 할당이 가능하다. 타입?
     var number11: Long? = 1_000L
+    var number12 = 1_000L
+    println(number11)
+    println(number12)
     number11 = null // ok.
 }
