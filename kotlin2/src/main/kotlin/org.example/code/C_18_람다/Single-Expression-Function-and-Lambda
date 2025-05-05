@@ -15,7 +15,7 @@ val isApple2: (Fruit) -> Boolean = { fruit: Fruit -> fruit.name == "사과" } //
 // 람다호출3 : isAppple2 이름 자체를 삭제하고 함수로만 표현함 // 이 때 함수의 반환타입이 Boolean으로 같으므로 실현부를 아예 인자 위치로 보낼 수 있다.
 filterFruits(fruits, { fruit: Fruit -> fruit.name == "사과" })
 
-// 람다호출4 : 구현부가 파라미터 여러개 중 마지막 인자일 경우 소괄호 밖으로 뺄수도 있다.
+// 람다호출4 : 구현부가 파라미터 여러개 중 마지막 인자일 경우 소괄호 밖으로 뺄수도 있다. trailing lambda, 후행람다
 filterFruits(fruits) { fruit: Fruit -> fruit.name == "사과" }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
