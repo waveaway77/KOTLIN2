@@ -1,0 +1,39 @@
+package org.example.org.example.code.C_26_deffered
+
+import kotlinx.coroutines.Deferred
+
+
+suspend fun main() {
+
+    val deferred: Deferred<String> = async {
+        delay(1000)
+        "Hello"
+    }
+
+    val result = deferred.await() // 여기서 실제 값을 꺼냄
+}
+/*
+Deferred<T>는 Kotlin의 비동기 작업 결과를 나타내는 객체이다.
+쉽게 말하면, T 타입의 값을 나중에 비동기로 받을 수 있다는 약속(Promise)이다.
+	나중에 T 값을 제공하겠다는 비동기 약속
+
+위 예제는 "Hello"라는 값을 1초 후에 제공하는 비동기 작업이다.
+Deferred<String>은 String을 나중에 줄게!라는 뜻이고,
+.await()를 호출하면 결과가 준비될 때까지 중단(suspend) 되었다가,
+값이 준비되면 리턴된다.
+
+ */
+
+class Person
+fun webClientTest() {
+    val personDeferred: Deferred<Person> = { ... } // personDeferred: Person 객체를 비동기로 준비하고 있음
+
+    client.post()
+        .uri("/persons/{id}", id)
+        .contentType(MediaType.APPLICATION_JSON)
+        // .body<Person>(personDeferred) //  WebClient로 보낼 body 값이 준비될 때까지 '기다렸다가', Person을 HTTP 요청 body로 보냄
+        .bodyValue(personDeferred) // Alternatively, if you have the actual value, you can use the bodyValue shortcut method, as the following example shows:
+        .retrieve()
+        .awaitBody<Unit>() // 서버 응답을 기다리며, 결과로 Unit을 받음 (Unit = Kotlin의 void)
+
+}
