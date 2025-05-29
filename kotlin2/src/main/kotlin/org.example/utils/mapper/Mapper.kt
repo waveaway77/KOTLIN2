@@ -11,8 +11,8 @@ fun main() {
     val convertedResponse1 = objectMapper.convertValue(response, ToResponse::class.java)
     val convertedResponse2 = objectMapper.convertValue(fromResponse, ToResponse::class.java)
 
-    println(convertedResponse1.dummyName)
-    println(convertedResponse2.dummyName)
+    println(convertedResponse1.dummyName) // java.lang.Object
+    println(convertedResponse2.dummyName) // hi
 }
 
 data class FromResponse(
