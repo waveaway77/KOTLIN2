@@ -87,5 +87,5 @@ inline함수
 19.
 typealias
 as import
-take if
+takeIf
 takeUnless
