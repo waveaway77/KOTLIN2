@@ -1,4 +1,8 @@
-package lecture/*
+package lecture
+
+import com.fasterxml.jackson.databind.ObjectMapper
+
+/*
 1. 배열
 2. 컬렉션
 3.
@@ -27,6 +31,12 @@ fun array() {
 }
 
 fun main() {
+    val map2 = mutableMapOf<String, Any>()
+    map2["hi"] = mapOf(
+        "key" to "1",
+        "key2" to "2",
+    )
+
     val oldMap = mutableMapOf<Int, String>()
     oldMap.put(1,"1")
     oldMap[1] = "MONDAY" // 1 : MONDAY
