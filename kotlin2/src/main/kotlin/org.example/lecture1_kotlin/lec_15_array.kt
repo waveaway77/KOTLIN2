@@ -39,7 +39,7 @@ fun main() {
 
     val oldMap = mutableMapOf<Int, String>()
     oldMap.put(1,"1")
-    oldMap[1] = "MONDAY" // 1 : MONDAY
+    oldMap[1] = "MONDAY" // 바로 값을 넣을 수 있다
     oldMap.put(0,"0")
     oldMap[0] = "0번을넣음"
     oldMap.put(-1,"ㅁㅁ")
