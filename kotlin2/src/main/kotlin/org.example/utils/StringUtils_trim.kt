@@ -11,7 +11,9 @@ fun main() {
     extractPartnerIdFromPath("/123/hana/")
 }
 
-fun trimFun() {
+
+
+fun fun_trim() {
 
     // trim('/')를 하면 string의 앞뒤로 있는 / 를 모두 삭제해준다.
 
