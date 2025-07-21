@@ -47,6 +47,16 @@ fun elvis() {
     val str: String? = "ABC"
     str?.length ?: 0 // null이었을 경우 0이 사용된다
 }
+/*
+Kotlin에서 함수의 파라미터 기본값을 지정할 때 ?: (엘비스 연산자)를 사용할 수는 없다.
+?:는 런타임에서 null을 처리할 때 사용하는 연산자이고,
+함수 선언 시 파라미터의 기본값을 지정하는 문법은 =을 사용해야 한다.
+suspend fun <T: Any, R: Any> post(timeoutMillis: Long? ?: 5000) { ... }
+?: 5000은 표현식 내부에서 null을 처리할 때 써야지,
+
+함수 시그니처에서 기본값을 지정하는 문법으로는 쓸 수 없다.
+
+ */
 
 // early return
 //fun calculate(number: Long?): Long {

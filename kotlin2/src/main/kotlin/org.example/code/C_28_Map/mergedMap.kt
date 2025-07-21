@@ -1,4 +1,4 @@
-package org.example.org.example.code
+package org.example.org.example.code.C_28_Map
 
 fun main() {
     val map1 = mapOf(
@@ -16,5 +16,4 @@ fun main() {
     val mergedMap = map1 + map2
 
     println(mergedMap) // {key1=value1, key2=value2, key3=value3, a=1, b=2, c=3}
-
 }
