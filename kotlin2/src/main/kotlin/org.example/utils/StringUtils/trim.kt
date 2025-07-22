@@ -1,4 +1,4 @@
-package org.example.org.example.utils
+package org.example.org.example.utils.StringUtils
 
 fun extractPartnerIdFromPath(path: String?): String? {
     val parts = path?.trim('/')?.split("/") ?:return null // split 함수는 인자를 기준으로 문자열을 나누어 줍니다

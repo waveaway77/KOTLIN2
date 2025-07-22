@@ -1,7 +1,7 @@
-package org.example.org.example.utils
+package org.example.org.example.utils.StringUtils
 
 fun main() {
-    println("result is "+fun_take("a"))
+    println("result is "+ fun_take("a"))
 }
 
 fun fun_take(value: String): String {
