@@ -83,3 +83,32 @@ fun none() {
         println("이 문장은 실행됨")
     }
 }
+
+// all
+fun validateAll(inputList: List<String>): Boolean {
+    val targetList = listOf("AA", "BB", "CC")
+
+    if (targetList.all { it in inputList }) {
+        return true // 모두 있을 때
+    }
+    return false // 하나라도 없을 때
+}
+
+// any
+fun validateAny(inputList: List<String>): Boolean {
+    val targetList = listOf("AA", "BB", "CC")
+
+    if (targetList.any { it in inputList }) {
+        return true // 하나라도 있을 때
+    }
+    return false // 모두 없을 때
+}
+
+// none
+fun validateNone(inputList: List<String>): String {
+    val targetList = listOf("AA", "BB", "CC")
+    if (targetList.none { it in inputList }) {
+        return "deny" // 모두 없을 때
+    }
+    return "pass" // 하나라도 있을 때
+}
